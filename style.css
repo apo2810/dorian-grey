@@ -54,7 +54,6 @@ body {
     font-family: 'Felipa', cursive;
     font-size: 100px;
     margin: 0 350px ;
-    margin-top: 250px;
     line-height: 95px;
     margin-top: 180px;
     
@@ -63,3 +62,4 @@ body {
     color:#3b3215 ;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+}
