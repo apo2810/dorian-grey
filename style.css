@@ -1,0 +1,65 @@
+body {
+    margin:0px;
+    padding:0px;
+    background: url(images/dorian\ gentil.jpg) no-repeat center fixed ; 
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+}
+.motun{
+    color:#EDC44E ;
+    font-family: 'Felipa', cursive;
+    font-size: 50px;
+    margin: 0px 500px ;
+    transition: 0.8s ease;
+}
+.motun:hover{
+    color:#3b3215 ;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.motdeux{
+    color:#dbd964 ;
+    font-family: 'Felipa', cursive;
+    font-size: 100px;
+    margin: 0px 300px ;
+    margin-top:-10px;
+    margin-right: 50px;
+    transition: 0.8s ease;
+  
+}
+.motdeux:hover{
+    color:#3b3215 ;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.mottrois{
+    color:#8f752e ;
+    font-family: 'Felipa', cursive;
+    font-size: 50px;
+    margin: 100px 380px ;
+    transform: rotate(10deg);
+}
+.motquatre{
+    color:#8f752e ;
+    font-family: 'Felipa', cursive;
+    font-size: 50px;
+    margin: -200px 760px ;
+    transform: rotate(-10deg);
+    white-space:nowrap;
+}
+.motcinq{
+    color:#b39638 ;
+    font-family: 'Felipa', cursive;
+    font-size: 100px;
+    margin: 0 350px ;
+    margin-top: 250px;
+    line-height: 95px;
+    margin-top: 180px;
+    
+}
+.motcinq:hover{
+    color:#3b3215 ;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
