@@ -1,65 +1,110 @@
 body {
     margin:0px;
     padding:0px;
-    background: url(images/dorian\ gentil.jpg) no-repeat center fixed ; 
+    /*background: url(images/dorian\ gentil.jpg) no-repeat center fixed ; */
+    background-size: cover;
     background-size: cover;
     background-attachment: fixed;
+    background-color: antiquewhite;
     
+  }
+  .grid {
+    display: grid;
+    grid-template: repeat(15, 100px) 1fr / repeat(20, 140px) 1fr; /* 8 rangées de 122px + 1 fractional unit (espace restant) + 10 colonenes de 160px + 1 fractional unit */
+    height: 100vh;
+    background: url(images/dorian\ gentil.jpg) no-repeat center fixed ;
+    width: 100vw;  /*largeur = 100% de la largeur du viewport*/
+    height: 100vw;
+} 
+
 
 }
 .motun{
     color:#EDC44E ;
     font-family: 'Felipa', cursive;
     font-size: 50px;
-    margin: 0px 500px ;
-    transition: 0.8s ease;
+    transition: 4s ease;
+    opacity: 100%;
+    /*animation: moveY 2s ease-in-out 0s infinite alternate both;*/
+    
+    
 }
 .motun:hover{
     color:#3b3215 ;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+    opacity: 100%;
 }
 .motdeux{
     color:#dbd964 ;
     font-family: 'Felipa', cursive;
-    font-size: 100px;
-    margin: 0px 300px ;
-    margin-top:-10px;
-    margin-right: 50px;
-    transition: 0.8s ease;
-  
+    font-size: 50px;
+    transition: 4s ease;
+    opacity: 100%;
+    grid-area: 2 / 6 / 5 / 7; /* debRang / debuCol / finRang / finCol */
+    
 }
 .motdeux:hover{
     color:#3b3215 ;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+    opacity: 100%;
 }
 .mottrois{
-    color:#8f752e ;
+    color:#ddb852 ;
     font-family: 'Felipa', cursive;
-    font-size: 50px;
-    margin: 100px 380px ;
+    font-size: 25px;
     transform: rotate(10deg);
+    opacity: 100%;
+    grid-area: 3 / 5 / 16 / 6; /* debRang / debuCol / finRang / finCol */
 }
 .motquatre{
-    color:#8f752e ;
+    color:#ddb852 ;
     font-family: 'Felipa', cursive;
-    font-size: 50px;
-    margin: -200px 760px ;
+    font-size: 25px;
     transform: rotate(-10deg);
     white-space:nowrap;
+    grid-area: 3 / 7 / 5 / 7; /* debRang / debuCol / finRang / finCol */
+}
+  
+    opacity: 100%;
 }
 .motcinq{
     color:#b39638 ;
     font-family: 'Felipa', cursive;
     font-size: 100px;
-    margin: 0 350px ;
     line-height: 95px;
-    margin-top: 180px;
+    margin-top: -100px;
+    margin-left: 400px;
+    opacity: 100%;
+    transition: 4s ease;
     
 }
 .motcinq:hover{
     color:#3b3215 ;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+    opacity: 100%;
 }
+
+.motsix{
+  color:#dbd964 ;
+  font-family: 'Felipa', cursive;
+  font-size: 30px;
+  transition: 0.8s ease;
+    opacity: 100%;v
+}
+.motsept{
+    columns: red ;
+    font-family: 'Felipa', cursive;
+    font-size: 30px;
+    transition: 0.8s ease;
+    opacity: 100%;v
+  }
+/*@keyframes movey{
+    from{
+        transform: translateY(0);
+        }
+    to{
+        transform: translateY(30px);
+}*/
